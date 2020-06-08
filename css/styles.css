@@ -1,0 +1,289 @@
+/* 
+<!-- 
+
+Aurthor : Prajjwal chuabey
+Gmail   : chaubey.prajjwal@gmail.com | prajjwal.anand@gmail.com
+Phone   : +91 8318131704
+
+Note : Thhis Website has been created by prajjwal chaubey.
+
+--> 
+*/
+
+
+/* --------------------------------------------------From here starts the section of header/title----------------------------------------------- */
+
+
+#title{
+    
+   
+    margin-bottom: 50px;
+    background-color: #0075c7;
+    color: white;
+}
+
+.fluid-container{
+    padding: 3% 15%;
+}
+
+.apple1{
+      height:18px;
+      width: 18px;
+      margin-top: -6px;
+
+}
+
+.apple2{
+    height:18px;
+    width: 18px;
+    margin-top: -4px;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-item-3{
+    padding-right: 0;
+}
+
+.nav-link{
+    font-weight: 350;
+    font-size: 1.2rem;
+}
+
+/* Download buttons */
+.download-button1{
+    margin: 2% 0% 5% 0%;
+}
+.download-button2{
+    margin: 2% 3% 5% 0%;
+    background-color: #fff;
+    color: black;
+}
+
+.title-image1{
+    width: 70%;
+    height: 80%;
+    border: 3px solid black ;
+}
+
+.title-image2{
+    width: 49%;
+    border: 3px solid black ;
+}
+
+.title-div2{
+    text-align: center;
+}
+
+
+/* --------------------------------------------------From here starts the section of features----------------------------------------------- */
+
+#features{
+    padding: 10% 15%;
+    margin-bottom: 50px;
+    background-image: url(../images/feature-setion-image.jpg);
+    
+}
+
+.features-container{
+    background-color: black;
+    opacity: 0.6;
+}
+
+.feat-div{
+    text-align: center;
+    padding: 5%;
+}
+
+.feat-icon-1{
+    color: #218838;
+    margin-bottom: 1rem;
+}
+
+.feat-icon-2{
+    color: #0075C7;
+    margin-bottom: 1rem;
+}
+
+.feat-icon-3{
+    color: #FF0000;
+    margin-bottom: 1rem;
+}
+
+.features-h3{
+    font-weight: 600;
+    color:white;
+    font-size: 1.6rem; 
+}
+
+.features-para{
+    color: #8f8f8f;
+}
+
+/* ---------------------------------------------------from here starts the testemonials section---------------------------- */
+
+#testimonials{
+    text-align: center;
+    background-color: #0075c7;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15% 6% 15%;
+}
+
+.testimonial-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+} 
+
+.testimonial-image{
+   width: 10%;
+   border-radius: 50%;
+   margin: 30px; 
+   /* border: 3px solid black; */
+   transition: transform 1s;
+}
+
+.testimonial-image:hover{
+    transform: scale(1.5);
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+
+/* ----------------------------------------------here starts pricing section-------------------------------- */
+
+#pricing{
+    padding:3% 15% 7% 15%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding-bottom: 2%;
+}
+
+.pricing-title{
+    padding-bottom: 2%;
+}
+
+.pricing-title p{
+    font-size: 1.5rem;
+}
+
+/* -----------------------------------------------------Here starts footer section-------------------------- */
+
+.footer-x{
+    text-align: center;
+    color: rgb(61, 60, 60);
+    font-size: 14px;
+}
+
+.icons-x{
+    text-align: center;
+}
+
+.facebook:hover{
+    color:#3b5998;
+}
+
+.twitter:hover{
+    color:#00acee;
+}
+
+.instagram:hover{
+    color:#125688;
+}
+
+.linkedin:hover{
+    color:#0e76a8;
+}
+
+.pinterest:hover{
+    color:#c8232c;
+}
+
+.gplus:hover{
+    color:#3cba54;
+}
+
+.icon-x{
+    color: black;
+}
+
+.footer-x p{
+    text-align: center;
+    letter-spacing:2.5px;
+}
+
+/* --------------------------------------------------Here starts footer section----------------------------- */
+
+@media (max-width: 991px)
+{
+    .title-h1{
+        text-align: center;
+    }
+
+    .button-div{
+        text-align: center;
+    }
+
+    .title-image1{
+        width: 49%;
+        float:left;
+    }
+
+    .title-image2{
+        width: 49%;
+        float: right;
+    }
+
+
+}
+
+@media (min-width: 991px){
+    .title-image2{
+        display: none;
+    }
+
+    .title-image1{
+        display:none;
+    }
+}
+
+/* ---------------------------------------------Here the Css ends----------------------------------- */
+
+/* 
+<!-- 
+
+Aurthor : Prajjwal chuabey
+Gmail   : chaubey.prajjwal@gmail.com | prajjwal.anand@gmail.com
+Phone   : +91 8318131704
+
+Note : Thhis Website has been created by prajjwal chaubey.
+
+--> 
+*/
